@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://opensource.keycdn.com/fontawesome/4.6.3/font-awesome.min.css">
   <link rel="stylesheet" href="css/theme.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -40,8 +41,8 @@
 </nav>
 
 <!-- First Container -->
-<div class="container-fluid bg-1 text-center">
-  <h3 class="margin">Rahul Ganta</h3>
+<div id="profile" class="container-fluid bg-1 text-center">
+  <h3 class="margin"> </h3>
   <img src="img/profile_pic.JPG" class="img-responsive img-square margin" style="display:inline" alt="profile_pic" width="350" height="350">
   <h3>I'm a programmer</h3>
 </div>
@@ -49,7 +50,7 @@
 <!-- Second Container -->
 <div id="about" class="container-fluid bg-2 text-center">
   <h3 class="margin">ABOUT</h3>
-  <p text-align="left">I am working as a Software Engineer at NantHealth since March 2015. Prior to joining NantHealth, I worked as software Engineer at DSIG, 
+  <p text-align="left">I am working as a Software Engineer at <a href="http://nanthealth.com">NantHealth</a> since March 2015. Prior to joining NantHealth, I worked as software Engineer at DSIG, 
 	<a href="http://www.swisslog.com/en">Swisslog Logistics</a> and 
 	<a href="https://www.odu.edu/its">Old Dominion University</a>.<br/>
 	I hold masters degree in computer science from <a href="https://www.odu.edu">Old Dominion University</a> and 
@@ -83,16 +84,29 @@
 <footer class="text-center">
  <div class="footer-above bg-2">
 	 <div class="container">
+		<a href="#profile">
+			<span class="glyphicon glyphicon-chevron-up"></span>
+		</a>
 		<div class="row">
 			<div class="col-lg-4">
-				<p>This is test data</p>
+				<h4>Contact</h4>
+				<ul class="list-inline">
+					<li>9902 S Thomas Dr</li>
+				</ul>
 			</div>
 			<div class="col-lg-4">
-				<p>This is test data</p>
+				<h4>Follow on</h4>
+				<ul class="list-inline">
+					<li><a href="https://www.facebook.com/gantarahul"><i class="fa fa-facebook-official"></i></a></li>
+					<li><a href=""><i class="fa fa-twitter-square" aria-hidden="true"></a></i></li>
+					<li><a href=""><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+				</ul>
 			</div>
 			<div class="col-lg-4">
-				<p>This is test data</p> 
-				<li><a href="#">ARTICLES</a></li>
+				<h4><i class="fa fa-envelope-o fa-1x" aria-hidden="true"></i></h4>
+				<ul class="list-inline">
+					<li><a href="">rahganta@gmail.com</a></li>
+				</ul>
 			</div>
 		</div>
 	 </div>
