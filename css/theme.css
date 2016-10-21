@@ -6,19 +6,27 @@
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
   .bg-1 {
-      background-color: #1abc9c; /* Green */
-      color: #ffffff;
+	  /* background-image: url('../img/golden.jpg');
+	  background-repeat: no-repeat;
+	  background-size: 100%;
+      background-color: #1abc9c; */ /* Green */
+	  background-color: #d66f15;
+	  color: white;
+      /* color: #ffffff; */
   }
   .bg-2 {
-      background-color: #474e5d; /* Dark Blue */
-      color: #ffffff;
+      background-color: #ffffff;  /*Dark Blue */
+      color: #555555;
+/* 	  border-color: 474e5d; 
+	  border-bottom: 1px; */
+	  border-bottom: 1px solid #d66f15;
   }
   .bg-3 {
       background-color: #ffffff; /* White */
       color: #555555;
   }
   .bg-4 {
-      background-color: #2f2f2f; /* Black Gray */
+      background-color: #2a2f32; /* Black Gray */
       color: #fff;
   }
   .container-fluid {
