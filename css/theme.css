@@ -10,7 +10,7 @@
 	  background-repeat: no-repeat;
 	  background-size: 100%;
       background-color: #1abc9c; */ /* Green */
-	  background-color: #d66f15;
+	  background-color: #00838f /*#d66f15*/;
 	  color: white;
       /* color: #ffffff; */
   }
@@ -48,4 +48,10 @@
   }
   .navbar-nav  li a:hover {
       color: #1abc9c !important;
+  }
+  
+  .carousel-inner .item img,
+  .carousel-inner .item a img {
+      width: 50%;
+      margin: auto;
   }
